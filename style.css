@@ -1,4 +1,5 @@
-/* Author: Shawly Zaman Shorna, ID: 2021240*/
+/* Author: Shawly Zaman Shorna, ID: 2021240 */
+/* Font type 1 as required */
 .fontType1 {
   font-family: "Lato", sans-serif;
   font-weight: 300;
@@ -11,6 +12,7 @@ body {
     color: #fff
 }
 
+/* Header and logo design */
 header {
     background-color: #000;
     color: #fff;
@@ -31,6 +33,7 @@ header {
     color: #fff;
 }
 
+/* Navigation Bar Design */
 nav ul {
     list-style: none;
     padding: 0;
@@ -64,7 +67,7 @@ footer {
     bottom: 0
 }
 
-/* HomePage Styling */
+/* HomePage Design */
 .home-flex {
     display: flex;
     justify-content: space-around;
@@ -82,4 +85,51 @@ footer {
 .home-content img {
     max-width: 100%;
     margin-top: 20px;
+}
+.fontType2 {
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Products Page Design */
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #2f2f2f;
+}
+
+.product-item {
+    background-color: #3f3f3f;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.product-item:hover {
+    transform: scale(1.05);
+}
+
+.product-item img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.product-item h3 {
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px 0;
+}
+
+.product-item p {
+    font-family: 'Roboto', sans-serif;
+    margin: 5px 0;
+}
+
+.product-item strong {
+    color: #d2691e;
 }
